@@ -20,6 +20,8 @@ class Page extends React.Component {
 <h2> Gallery/ </h2>
 <h2> Videos </h2>
 <p>My first paragraph.</p>
+                
+<div class="mypic"></div>
 
 </body>
 </html>"
