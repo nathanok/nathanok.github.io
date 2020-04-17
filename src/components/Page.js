@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Page.css";
 
 
 class Page extends React.Component {
@@ -14,7 +15,10 @@ class Page extends React.Component {
 </head>
 <body>
 
-<h1>My First Heading</h1>
+<h1>Nathan Williams</h1>
+<h2> Home </h2>
+<h2> Gallery </h2>
+<h2> Videos </h2>
 <p>My first paragraph.</p>
 
 </body>
