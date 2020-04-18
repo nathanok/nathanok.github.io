@@ -1,7 +1,10 @@
 import React from "react";
 import "./App.css";
 import {BrowserRouter, Route} from "react-router-dom";
+
 import Home from "./components/Home";
+import Gallery from "./components/Gallery";
+import Videos from "./components/Videos";
 
 
 
@@ -9,21 +12,29 @@ import Home from "./components/Home";
 
 
 
-function App() {
+class App extends React.Component {
+    
+    render() {
+        
   return (
-    <div className="App">
-       <Home />
+  
+      
       
       
           <BrowserRouter>
+      <div>
+    <Route path="/" component={Home} exact />
+        <Route path="/" component={Gallery} />
+        <Route path="/" component={Videos} />
       
-    
+      </div>
       </BrowserRouter>
       
-    </div>
+   
    
       
   );
+}
 }
 
 export default App;
