@@ -7,7 +7,10 @@ class Gallery extends React.Component {
     render() {
         return (
         <div className="Gallery">
-            
+             <div
+        className="wpad"
+      
+      ></div>
             
            
 <body>
