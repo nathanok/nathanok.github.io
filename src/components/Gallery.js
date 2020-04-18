@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Page2.css";
+import "../css/Gallery.css";
 
 
 class Gallery extends React.Component {
@@ -10,18 +10,20 @@ class Gallery extends React.Component {
             
             
            
-<html>
-<head>
-<title>Page Title</title>
-</head>
 <body>
 
-
+<h1>Nathan Williams</h1>
+ <h2> Home/ </h2> 
+ <h2> Gallery/ </h2> 
+<h2> Videos </h2>
+<p>Welcome to my Gallery</p>
+                
+<div class="mypic"></div>
 
 </body>
-</html>"
 
-document.write(info)
+
+
             </div>
             
             
@@ -31,7 +33,7 @@ document.write(info)
     
     
     }
-    //content:url(".././images/picof.jpg");
+
 
 
 export default Gallery;

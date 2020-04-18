@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import Videos from "./components/Videos";
 import Error from "./components/Error";
-
+import Nav from "./components/Nav";
 
 
 
@@ -22,6 +22,9 @@ class App extends React.Component {
       
       
           <BrowserRouter>
+      <div>
+      <Nav />
+      
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/" component={Gallery} />
@@ -30,6 +33,8 @@ class App extends React.Component {
         <Route component={Error} />
       
       </Switch>
+      
+      </div>
       </BrowserRouter>
       
    

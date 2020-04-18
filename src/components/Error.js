@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Page2.css";
+
 
 
 class Error extends React.Component {
