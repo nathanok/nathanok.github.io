@@ -1,16 +1,46 @@
 import React from "react";
 import "./App.css";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import Page from "./components/Page";
+import Home from "./components/Home";
+import Gallery from "./components/Gallery";
+import Videos from "./components/Videos";
+import Error from "./components/Error";
+import Nav from "./components/Nav";
 
 
 
-function App() {
+
+
+class App extends React.Component {
+    
+    render() {
+        
   return (
-    <div className="App">
-       <Page />
-    </div>
+  
+      
+      
+      
+          <BrowserRouter>
+      <div>
+      <Nav />
+      
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/Gallery" component={Gallery} />
+        <Route path="/Videos" component={Videos} />
+        <Route component={Error} />
+      
+      </Switch>
+      
+      </div>
+      </BrowserRouter>
+      
+   
+   
+      
   );
+}
 }
 
 export default App;

@@ -1,0 +1,44 @@
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+h2 {
+    display: inline-block;
+  font-size: 20px;
+    word-spacing: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+body {
+  background-color: aqua;
+background-image: url(".././images/persondel.jpg");
+
+}
+
+div.mypic {
+    align-content: center;
+    position: fixed;
+    left: 600px;
+    bottom: 250px;
+
+   content:url(http://placehold.it/350x150);
+}
+
+.wpad {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 510px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  border-radius: 25px;
+  top: -250px;
+  left: 80px;
+    position: relative;
+    
+}
