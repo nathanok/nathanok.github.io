@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import Videos from "./components/Videos";
-
+import Error from "./components/Error";
 
 
 
@@ -22,12 +22,14 @@ class App extends React.Component {
       
       
           <BrowserRouter>
-      <div>
-    <Route path="/" component={Home} exact />
+      <Switch>
+        <Route path="/" component={Home} exact />
         <Route path="/" component={Gallery} />
         <Route path="/" component={Videos} />
       
-      </div>
+        <Route component={Error} />
+      
+      </Switch>
       </BrowserRouter>
       
    
