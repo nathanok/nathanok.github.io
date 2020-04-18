@@ -1,14 +1,15 @@
 import React from "react";
 import "../css/Page.css";
-import {Link} from "react-router";
+import {Router, Route} from "react-router";
+import {Link} from "react-router-dom";
 
 
-class Page extends React.Component {
+class Home extends React.Component {
  
     render() {
         return (
         <div className="Page">
-            
+  
            
 <html>
 <head>
@@ -17,8 +18,8 @@ class Page extends React.Component {
 <body>
 
 <h1>Nathan Williams</h1>
-<a href="Page.js"> <h2> Home/ </h2> </a>
-<a href="Page2.js"> <h2> Gallery/ </h2> </a>
+ <h2> Home/ </h2> 
+ <h2> Gallery/ </h2> 
 <h2> Videos </h2>
 <p>My first paragraph.</p>
                 
@@ -40,4 +41,4 @@ document.write(info)
     //content:url(".././images/picof.jpg");
 
 
-export default Page;
+export default Home;
