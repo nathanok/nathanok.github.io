@@ -20,9 +20,8 @@ background-image: url(".././images/A422roomfullview.jpg");
 div.mypic {
     align-content: center;
     position: fixed;
-    left: 450px;
-    bottom: 150px;
-    width: 40%; 
-    height: 50%;
-   content:url(".././images/picof.jpg");
+    left: 600px;
+    bottom: 250px;
+
+   content:url(http://placehold.it/350x150);
 }

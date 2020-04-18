@@ -16,7 +16,7 @@ class Page extends React.Component {
 <body>
 
 <h1>Nathan Williams</h1>
-<a href="Home"> <h2> Home/ </h2> </a>
+<h2> Home/ </h2>
 <h2> Gallery/ </h2>
 <h2> Videos </h2>
 <p>My first paragraph.</p>
