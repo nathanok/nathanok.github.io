@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Page.css";
+import {Link} from "react-router";
 
 
 class Page extends React.Component {
@@ -16,8 +17,8 @@ class Page extends React.Component {
 <body>
 
 <h1>Nathan Williams</h1>
-<a href="Home"> <h2> Home/ </h2> </a>
-<h2> Gallery/ </h2>
+<a href="Page.js"> <h2> Home/ </h2> </a>
+<a href="Page2.js"> <h2> Gallery/ </h2> </a>
 <h2> Videos </h2>
 <p>My first paragraph.</p>
                 

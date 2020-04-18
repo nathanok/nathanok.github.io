@@ -1,0 +1,27 @@
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+h2 {
+    display: inline-block;
+  font-size: 20px;
+    word-spacing: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+body {
+  background-color: aqua;
+
+}
+
+div.mypic {
+    align-content: center;
+    position: fixed;
+    left: 600px;
+    bottom: 250px;
+
+   content:url(http://placehold.it/350x150);
+}
