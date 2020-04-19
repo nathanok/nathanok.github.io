@@ -13,9 +13,7 @@ class Home extends React.Component {
 <body>
 
 <h1>Nathan Williams</h1>
- <h2> Home/ </h2> 
- <h2> Gallery/ </h2> 
-<h2> Videos </h2>
+
 <p>Welcome to my Portfolio</p>
                 
 <div class="mypic"></div>
@@ -37,3 +35,4 @@ class Home extends React.Component {
 
 
 export default Home;
+//background-image: url(".././images/A422roomfullview.jpg");
