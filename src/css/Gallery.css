@@ -8,3 +8,19 @@ div.back {
 
    content:url(".././images/persondel.jpg");
 }
+
+div.img {
+    position: absolute;
+     border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+    left: 150px;
+    transition: transform .2s;
+     content:url(".././images/persondel.jpg");
+}
+
+div.img:hover {
+    transform: scale(6.5);
+}
+

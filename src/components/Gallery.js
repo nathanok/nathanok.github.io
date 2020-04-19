@@ -20,6 +20,7 @@ class Gallery extends React.Component {
                 
 <div class="mypic"></div>
             <div class="back"></div>
+            <div class="img"></div>
 
 </body>
 
