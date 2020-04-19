@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/https://nathanok.github.io/static/css/main.33f9d626.chunk.css",
-    "main.js": "/https://nathanok.github.io/static/js/main.2893de4d.chunk.js",
-    "main.js.map": "/https://nathanok.github.io/static/js/main.2893de4d.chunk.js.map",
-    "runtime-main.js": "/https://nathanok.github.io/static/js/runtime-main.dc489659.js",
-    "runtime-main.js.map": "/https://nathanok.github.io/static/js/runtime-main.dc489659.js.map",
-    "static/js/2.2d0bcdf6.chunk.js": "/https://nathanok.github.io/static/js/2.2d0bcdf6.chunk.js",
-    "static/js/2.2d0bcdf6.chunk.js.map": "/https://nathanok.github.io/static/js/2.2d0bcdf6.chunk.js.map",
-    "index.html": "/https://nathanok.github.io/index.html",
-    "precache-manifest.4ed311cdc6889ae15ecf6f5074d272c2.js": "/https://nathanok.github.io/precache-manifest.4ed311cdc6889ae15ecf6f5074d272c2.js",
-    "service-worker.js": "/https://nathanok.github.io/service-worker.js",
-    "static/css/main.33f9d626.chunk.css.map": "/https://nathanok.github.io/static/css/main.33f9d626.chunk.css.map",
-    "static/js/2.2d0bcdf6.chunk.js.LICENSE.txt": "/https://nathanok.github.io/static/js/2.2d0bcdf6.chunk.js.LICENSE.txt",
-    "static/media/Gallery.css": "/https://nathanok.github.io/static/media/persondel.605a394d.jpg",
-    "static/media/Videos.css": "/https://nathanok.github.io/static/media/art421delmaybev1.460f081f.jpg",
-    "static/media/Home.css": "/https://nathanok.github.io/static/media/picof.048100fa.jpg"
+    "main.css": "/nathanok.github.io/static/css/main.2e225103.chunk.css",
+    "main.js": "/nathanok.github.io/static/js/main.0c7c0ba1.chunk.js",
+    "main.js.map": "/nathanok.github.io/static/js/main.0c7c0ba1.chunk.js.map",
+    "runtime-main.js": "/nathanok.github.io/static/js/runtime-main.ee40ad97.js",
+    "runtime-main.js.map": "/nathanok.github.io/static/js/runtime-main.ee40ad97.js.map",
+    "static/js/2.2d0bcdf6.chunk.js": "/nathanok.github.io/static/js/2.2d0bcdf6.chunk.js",
+    "static/js/2.2d0bcdf6.chunk.js.map": "/nathanok.github.io/static/js/2.2d0bcdf6.chunk.js.map",
+    "index.html": "/nathanok.github.io/index.html",
+    "precache-manifest.d2c7ef3115a6206690fa4140e1c30931.js": "/nathanok.github.io/precache-manifest.d2c7ef3115a6206690fa4140e1c30931.js",
+    "service-worker.js": "/nathanok.github.io/service-worker.js",
+    "static/css/main.2e225103.chunk.css.map": "/nathanok.github.io/static/css/main.2e225103.chunk.css.map",
+    "static/js/2.2d0bcdf6.chunk.js.LICENSE.txt": "/nathanok.github.io/static/js/2.2d0bcdf6.chunk.js.LICENSE.txt",
+    "static/media/Gallery.css": "/nathanok.github.io/static/media/persondel.605a394d.jpg",
+    "static/media/Videos.css": "/nathanok.github.io/static/media/art421delmaybev1.460f081f.jpg",
+    "static/media/Home.css": "/nathanok.github.io/static/media/picof.048100fa.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc489659.js",
+    "static/js/runtime-main.ee40ad97.js",
     "static/js/2.2d0bcdf6.chunk.js",
-    "static/css/main.33f9d626.chunk.css",
-    "static/js/main.2893de4d.chunk.js"
+    "static/css/main.2e225103.chunk.css",
+    "static/js/main.0c7c0ba1.chunk.js"
   ]
 }
