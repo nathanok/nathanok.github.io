@@ -14,14 +14,23 @@ h2 {
 }
 body {
   
-background-image: url(".././images/A422roomfullview.jpg");
+
+    background-color: lightgoldenrodyellow;
+    top: 50px ;
 }
 
 div.mypic {
     align-content: center;
     position: fixed;
-    left: 600px;
-    bottom: 250px;
+    left: 300px;
+    bottom: 50px;
+ width: 50%;
 
-   content:url(http://placehold.it/350x150);
+   content:url(".././images/picof.jpg");
 }
+
+p {
+    color: saddlebrown;
+    
+}
+
