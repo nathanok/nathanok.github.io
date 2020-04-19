@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa2678c1.chunk.css",
-    "main.js": "/static/js/main.3d891104.chunk.js",
-    "main.js.map": "/static/js/main.3d891104.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.82e0cc09.js",
-    "runtime-main.js.map": "/static/js/runtime-main.82e0cc09.js.map",
-    "static/js/2.2d0bcdf6.chunk.js": "/static/js/2.2d0bcdf6.chunk.js",
-    "static/js/2.2d0bcdf6.chunk.js.map": "/static/js/2.2d0bcdf6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.34b392efdd2c906d04bc005577d368d8.js": "/precache-manifest.34b392efdd2c906d04bc005577d368d8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fa2678c1.chunk.css.map": "/static/css/main.fa2678c1.chunk.css.map",
-    "static/js/2.2d0bcdf6.chunk.js.LICENSE.txt": "/static/js/2.2d0bcdf6.chunk.js.LICENSE.txt",
-    "static/media/Gallery.css": "/static/media/persondel.605a394d.jpg",
-    "static/media/Videos.css": "/static/media/art421delmaybev1.460f081f.jpg",
-    "static/media/Home.css": "/static/media/picof.048100fa.jpg"
+    "main.css": "/https://nathanok.github.io/static/css/main.33f9d626.chunk.css",
+    "main.js": "/https://nathanok.github.io/static/js/main.2893de4d.chunk.js",
+    "main.js.map": "/https://nathanok.github.io/static/js/main.2893de4d.chunk.js.map",
+    "runtime-main.js": "/https://nathanok.github.io/static/js/runtime-main.dc489659.js",
+    "runtime-main.js.map": "/https://nathanok.github.io/static/js/runtime-main.dc489659.js.map",
+    "static/js/2.2d0bcdf6.chunk.js": "/https://nathanok.github.io/static/js/2.2d0bcdf6.chunk.js",
+    "static/js/2.2d0bcdf6.chunk.js.map": "/https://nathanok.github.io/static/js/2.2d0bcdf6.chunk.js.map",
+    "index.html": "/https://nathanok.github.io/index.html",
+    "precache-manifest.4ed311cdc6889ae15ecf6f5074d272c2.js": "/https://nathanok.github.io/precache-manifest.4ed311cdc6889ae15ecf6f5074d272c2.js",
+    "service-worker.js": "/https://nathanok.github.io/service-worker.js",
+    "static/css/main.33f9d626.chunk.css.map": "/https://nathanok.github.io/static/css/main.33f9d626.chunk.css.map",
+    "static/js/2.2d0bcdf6.chunk.js.LICENSE.txt": "/https://nathanok.github.io/static/js/2.2d0bcdf6.chunk.js.LICENSE.txt",
+    "static/media/Gallery.css": "/https://nathanok.github.io/static/media/persondel.605a394d.jpg",
+    "static/media/Videos.css": "/https://nathanok.github.io/static/media/art421delmaybev1.460f081f.jpg",
+    "static/media/Home.css": "/https://nathanok.github.io/static/media/picof.048100fa.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82e0cc09.js",
+    "static/js/runtime-main.dc489659.js",
     "static/js/2.2d0bcdf6.chunk.js",
-    "static/css/main.fa2678c1.chunk.css",
-    "static/js/main.3d891104.chunk.js"
+    "static/css/main.33f9d626.chunk.css",
+    "static/js/main.2893de4d.chunk.js"
   ]
 }
