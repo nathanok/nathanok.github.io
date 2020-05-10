@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Gallery.css";
-
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 class Gallery extends React.Component {
  
