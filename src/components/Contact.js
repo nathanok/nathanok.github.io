@@ -1,46 +1,73 @@
 import React from "react";
 import "../css/Contact.css";
+import axios from 'axios';
 
 
-class Contact extends React.Component {
- 
-    render() {
-        return (
-        <div className="Page">
+class Contact extends React.Component{
   
-           
+  constructor(props) {
+	super(props);
+	this.state = {
+  	name: '',
+  	email: '',
+  	message: ''
+	}
+  }
 
-<body>
+  handleSubmit(e){
+    e.preventDefault();
+    axios({
+      method: "POST", 
+      url:"http://localhost:3002/send", 
+      data:  this.state
+    }).then((response)=>{
+      if (response.data.status === 'success'){
+        alert("Message Sent."); 
+        this.resetForm()
+      }else if(response.data.status === 'fail'){
+        alert("Message failed to send.")
+      }
+    })
+  }
 
-<h1>Nathan Williams</h1>
-
-<p>Welcome to my Portfolio</p>
-                
-<div class="mypic"></div>
-            
-     <div class="Aboutme">
-            <div class="text">
-            <h4>About Me </h4>
-            <p> I attended Lehman College to obtain a Bachelor degree in Computer Graphics and Imaging. Ever since my earlier years I have been interested in the underlying processes that go into developing video games. I was particularly engrossed in animation and character modeling and have worked to constantly improve my aptitude in those areas. </p>
-            <p> Please go to the website below for my Resume and contact information </p> <h5> https://www.linkedin.com/in/nathan-williams-6b57a712b/detail/contact-info/ </h5>
-            </div>
-            </div>
-
-</body>
-
-
-
-            </div>
-            
-            
-        );
-        
-        }
+  resetForm(){
     
-    
-    }
-    //content:url(".././images/picof.jpg");
+     this.setState({name: '', email: '', message: ''})
+  }
+  
+  render() {
+	return(
+  	<div className="App">
+  	<form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+  	<div className="form-group">
+      	<label htmlFor="name">Name</label>
+      	<input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+  	</div>
+  	<div className="form-group">
+      	<label htmlFor="exampleInputEmail1">Email address</label>
+      	<input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+  	</div>
+  	<div className="form-group">
+      	<label htmlFor="message">Message</label>
+      	<textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+  	</div>
+  	<button type="submit" className="btn btn-primary">Submit</button>
+  	</form>
+  	</div>
+	);
+  }
 
+  onNameChange(event) {
+	this.setState({name: event.target.value})
+  }
+
+  onEmailChange(event) {
+	this.setState({email: event.target.value})
+  }
+
+  onMessageChange(event) {
+	this.setState({message: event.target.value})
+  }
+}
 
 export default Contact;
-//background-image: url(".././images/A422roomfullview.jpg");
