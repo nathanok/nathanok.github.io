@@ -9,15 +9,25 @@ class Contact extends React.Component{
     
     
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             name: '',
             email: '',
             message: '',
             disabled: false,
             emailSent: null,
-            
         }
+    }
+
+
+    handleChange = (event) => {
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
+        this.setState({
+            [name]: value
+        })
     }
     
     render() {
@@ -27,7 +37,8 @@ class Contact extends React.Component{
         <p> Contact Page in Progress</p>
                 </div>
             <div class="word">
-                <Form>
+            
+                <Form onSubmit={this.handleSubmit}>
             
          <Form.Group>
             <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -44,7 +55,12 @@ class Contact extends React.Component{
             <Form.Control id="Message" name="Message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
              </Form.Group>
             
-                    <Button>Send</Button>
+                    <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                        Send
+                    </Button>
+            
+            {this.state.emailSent === true && <p className="d-inline success-msg"> Email Sent </p>}
+            {this.state.emailSent === false && <p className="d-inline err-msg"> Email Not Sent </p>}
             
             </Form>
                 </div>
