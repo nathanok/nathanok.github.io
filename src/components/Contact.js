@@ -1,5 +1,5 @@
 import React from "react";
-//import "../css/Contact.css";
+import "../css/Contact.css";
 import axios from 'axios';
 
 
@@ -20,8 +20,12 @@ class Contact extends React.Component{
     
     render() {
         return(
+            <div class= "Pen">
+            <div>
         <p> Contact Page in Progress</p>
+            </div>
             
+                 </div>
         );
         
     }
