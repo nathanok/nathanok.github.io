@@ -46,15 +46,15 @@ class Contact extends React.Component{
              </Form.Group>
             
              <Form.Group>
-            <Form.Label htmlFor="Email">Email</Form.Label>
-            <Form.Control id="Email" name="Email" type="email" value={this.state.email} onChange={this.handleChange} />
-             </Form.Group>
+              <Form.Label htmlFor="email">Email</Form.Label>
+              <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
+                </Form.Group>
             
-             <Form.Group>
-            <Form.Label htmlFor="Message">Message</Form.Label>
-            <Form.Control id="Message" name="Message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
+         <Form.Group>
+            <Form.Label htmlFor="message">Message</Form.Label>
+            <Form.Control id="message" name="message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
              </Form.Group>
-            
+
                     <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
                         Send
                     </Button>
