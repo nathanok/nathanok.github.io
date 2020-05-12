@@ -1,111 +1,116 @@
-
+.h2 {
+    position: absolute;
+}
 
 
 div.back {
     align-content: center;
-    position: fixed;
+    position: absolute;
   top: 20px;
+    min-height: 1180px;
 
    content:url(".././images/persondel.jpg");
 }
 
 div.img {
-    position: absolute;
-     border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 150px;
-    left: 150px;
-    display: inline-block;
-    transition: transform .2s;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 800px;
+    height: 500px;
+    bottom: 400px;
+     border-radius: 25px;
      content:url(".././images/persondel.jpg");
 }
 
-div.img:hover {
-    transform: scale(4.5);
-}
+
 
 div.img2 {
-    position: absolute;
-     border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 150px;
-    left: 150px;
-    bottom: 300px;
-    transition: transform .2s;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 800px;
+    height: 500px;
+    bottom: 400px;
+     border-radius: 25px;
      content:url(".././images/A422roomfullview.jpg");
 }
 
-div.img2:hover {
-    transform: scale(4.5);
-}
+
 
 div.img3 {
-    position: absolute;
-     border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 150px;
-    left: 450px;
-    display: inline-block;
-    transition: transform .2s;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 800px;
+    height: 500px;
+    bottom: 400px;
+     border-radius: 25px;
      content:url(".././images/nwfinM.jpg");
 }
 
-div.img3:hover {
-    transform: scale(4.5);
-}
+
 
 div.img4 {
-    position: absolute;
-     border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 150px;
-    left: 450px;
-    bottom: 300px;
-    display: inline-block;
-    transition: transform .2s;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 800px;
+    height: 500px;
+    bottom: 400px;
+     border-radius: 25px;
      content:url(".././images/nwcityresourcescityp1.jpg");
 }
 
-div.img4:hover {
-    transform: scale(4.5);
-}
+
 
 div.img5 {
-    position: absolute;
-     border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 150px;
-    left: 450px;
-    bottom: 150px;
-    display: inline-block;
-    transition: transform .2s;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 800px;
+    height: 500px;
+    bottom: 400px;
+     border-radius: 25px;
      content:url(".././images/MidtermRoom.jpg");
 }
 
-div.img5:hover {
-    transform: scale(4.5);
-}
+
 
 div.img6 {
-    position: absolute;
-     border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 150px;
-    left: 150px;
-    bottom: 150px;
-    display: inline-block;
-    transition: transform .2s;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 800px;
+    height: 500px;
+    bottom: 400px;
+     border-radius: 25px;
      content:url(".././images/DELNWnoting.jpg");
 }
 
+
+div.img:hover {
+    transform: scale(1.5);
+}
+
+div.img2:hover {
+    transform: scale(1.5);
+}
+
+div.img3:hover {
+    transform: scale(1.5);
+}
+
+div.img4:hover {
+    transform: scale(1.5);
+}
+
+div.img5:hover {
+    transform: scale(1.5);
+}
+
 div.img6:hover {
-    transform: scale(4.5);
+    transform: scale(1.5);
 }
 
 
