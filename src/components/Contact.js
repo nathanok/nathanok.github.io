@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Contact.css";
 import axios from 'axios';
+import Form from 'react-bootstrap/Form';
 
 
 class Contact extends React.Component{
@@ -20,12 +21,24 @@ class Contact extends React.Component{
     
     render() {
         return(
-            <div class= "Pen">
-            <div>
+            <div class= "Write">
+                <div class="Pen">
         <p> Contact Page in Progress</p>
-            </div>
+                </div>
+            <div class="word">
+            <Form>
+            <Form.Group>
+            <Form.Label htmlFor="full-name">Full Name</Form.Label>
+            <Form.Control id="full-name" name="name" type="text" value={this.state.name} />
+           
             
-                 </div>
+            </Form.Group>
+            
+            </Form>
+                </div>
+                    </div>
+                 
+            
         );
         
     }
