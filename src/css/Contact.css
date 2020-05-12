@@ -2,3 +2,13 @@ div.Pen {
     font-size: 100px;
 }
 
+.success-msg {
+    color:aquamarine;
+    padding: 10px 15px;
+}
+
+
+.err-msg {
+    color:red;
+    padding: 10px 15px;
+}

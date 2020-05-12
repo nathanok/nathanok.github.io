@@ -30,6 +30,17 @@ class Contact extends React.Component{
         })
     }
     
+   handleSubmit = (event) => {
+        event.preventDefault();
+
+        console.log(event.target);
+
+        this.setState({
+            disabled: true,
+             emailSent: true
+        });
+   }
+    
     render() {
         return(
             <div class= "Write">
