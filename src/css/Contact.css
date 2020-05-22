@@ -1,3 +1,5 @@
+
+
 div.Pen {
     font-size: 100px;
 }
@@ -11,4 +13,36 @@ div.Pen {
 .err-msg {
     color:red;
     padding: 10px 15px;
+}
+
+div.Pen {
+    
+    width: 100%;
+    top: 100%;
+}
+
+div.re {
+    width: 80%;
+    height: 100%;
+  top: 50px;
+    min-height: 1540px;
+    transform: scale(.7);
+position: absolute;
+   background-image:url(".././images/resume.jpg");
+}
+
+div.word {
+    position: absolute;
+    text-align: center;
+}
+
+/* Media Query for responsive */
+
+@media screen and (max-width: 800px) {
+    
+    div.re {
+        width:1300px;
+    }
+    
+    
 }

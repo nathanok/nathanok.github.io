@@ -69,7 +69,9 @@ class Contact extends React.Component{
         return(
             <div class= "Write">
                 <div class="Pen">
-        <p> Contact Page in Progress</p>
+        <p> </p>
+                </div>
+               <div class="re">
                 </div>
             <div class="word">
             

@@ -93,6 +93,10 @@ div.text{
         background-image: none;
     
 }
+    
+    h1{
+        animation: none;
+    }
 
     
     
