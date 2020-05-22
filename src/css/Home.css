@@ -17,6 +17,7 @@ body {
   
 
     background-color: lightgoldenrodyellow;
+   background-image: url(".././images/testb6.jpg"); 
     top: 50px ;
 }
 
@@ -31,7 +32,7 @@ div.mypic {
 }
 
 p {
-    color: saddlebrown;
+    color: lightblue;
     
 }
 @keyframes colorswap {
@@ -55,5 +56,51 @@ div.text{
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+    
+}
+
+
+/* Media Query for responsive */
+
+@media screen and (max-width: 800px) {
+    
+    h1{
+    background-color: black;
+   
+}
+    
+    div.text{
+   position: absolute;
+ left: 30px;
+      
+    top: 380px;
+}
+    
+    div.mypic {
+    align-content: center;
+    position:absolute;
+    left: 100px;
+    bottom: 200px;
+ width: 450px;
+
+   content:url(".././images/picof.jpg");
+}
+    
+    body {
+  
+
+    background-color: floralwhite;
+        background-image: none;
+    
+}
+    
+    h1{
+        animation: none;
+    }
+
+    
+    
+    
+    
     
 }

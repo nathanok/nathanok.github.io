@@ -114,4 +114,25 @@ div.img6:hover {
 }
 
 
+/* Media Query for responsive */
 
+@media screen and (max-width: 800px) {
+    
+    div.img, div.img2, div.img3, div.img4, div.img5, div.img6 {
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 500px;
+    height: 350px;
+    bottom: 300px;
+     border-radius: 25px;
+     
+}
+    
+    div.back {
+         min-height: 680px;
+        
+    }
+
+    
+}

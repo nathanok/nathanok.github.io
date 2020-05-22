@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Videos.css";
+import { Link } from 'react-router-dom';
 
 
 class Videos extends React.Component {
@@ -27,12 +28,13 @@ class Videos extends React.Component {
             
              <div class="Aboutme2">
             <div class="text2">
+        
             <h4>The Images to the left are scenes from a video which can be found at the following link </h4>
-            <h5> www.youtube.com/watch?v=z-yJ25-9nx0  </h5>
+              <h5> <a href="https://www.youtube.com/watch?v=z-yJ25-9nx0" target="_blank">www.youtube.com/watch?v=z-yJ25-9nx0</a>  </h5> 
             </div>
             </div>
 
-            
+                        /* <h5>  <Link to='www.youtube.com/watch?v=z-yJ25-9nx0'>www.youtube.com/watch?v=z-yJ25-9nx0</Link>  </h5> */
             
             
             
