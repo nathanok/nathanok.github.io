@@ -17,6 +17,7 @@ body {
   
 
     background-color: lightgoldenrodyellow;
+   background-image: url(".././images/testb6.jpg"); 
     top: 50px ;
 }
 
@@ -64,7 +65,7 @@ div.text{
 @media screen and (max-width: 800px) {
     
     h1{
-    background-color: blue;
+    background-color: black;
    
 }
     
@@ -89,6 +90,7 @@ div.text{
   
 
     background-color: floralwhite;
+        background-image: none;
     
 }
 
