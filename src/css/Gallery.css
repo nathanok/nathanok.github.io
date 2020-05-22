@@ -114,6 +114,8 @@ div.img6:hover {
 }
 
 
+/* Media Query for responsive */
+
 @media screen and (max-width: 800px) {
     
     div.img, div.img2, div.img3, div.img4, div.img5, div.img6 {
